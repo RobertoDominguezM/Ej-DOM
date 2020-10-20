@@ -27,3 +27,15 @@ let ej2p4 = document.getElementsByTagName('input')//Falta
 /**
  * Ejercicio 3
  */
+//Punto 1.1
+let ej3p1 = ul.innerHTML.textContent;
+//Punto 1.2
+let ej3p2 
+//Punto 1.3
+let ej3p3
+//Punto 1.4
+let ej3p4
+//Punto 2.1
+let ej3p5
+//Punto 2.2
+let ej3p6
