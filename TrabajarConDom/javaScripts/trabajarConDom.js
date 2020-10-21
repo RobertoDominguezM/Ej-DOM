@@ -16,3 +16,4 @@ function quitarFoco() {
 function crearElemento() {
     elemento.insertBefore(nuevoNodo, nodo)
 }
+//Punto 2
