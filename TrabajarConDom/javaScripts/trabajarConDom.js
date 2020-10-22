@@ -22,3 +22,21 @@ function elementoH2() {
     padre.insertBefore(element, hijo);
 }
 //Punto 2
+function cambioLugarP(){
+    var seccionTercera = document.getElementById("seccionTercera");
+    var primero = document.getElementById("seccionPrimaria");
+    var parrafoTercero = primero.lastChild;
+    var ponerPrimero = seccionTercera.firstChild;
+    seccionTercera.insertBefore(parrafoTercero, ponerPrimero);
+}
+//Punto 3
+function crearDivNuevo(){
+    var div = document.createElement("div");
+    var clon = document.getElementById("seccionLista").cloneNode(true);
+    div.appendChild(clon);
+    document.body.appendChild(div);
+}
+//Punto 4
+function eliminarUltimaFilaLista(){
+
+}
